@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Better Bookmarks ",
+  "description": "This extension stores read later links",
+  "version": "1.0",
+
+  "permissions": [
+    "https://secure.flickr.com/"
+  ],
+  "browser_action": {
+    "default_icon": "icon.jpg",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+}
+}
